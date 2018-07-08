@@ -1,0 +1,44 @@
+{
+  "name": "vue-di-template",
+  "version": "0.0.0",
+  "description": "Vue Dependency Injection Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joejukan/vue-di-template.git"
+  },
+  "keywords": [
+    "Vue",
+    "Dependency",
+    "Injection",
+    "DI",
+    "Template"
+  ],
+  "author": "Joseph Eniojukan (https://github.com/joejukan)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joejukan/vue-di-template/issues"
+  },
+  "homepage": "https://github.com/joejukan/vue-di-template#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.12"
+  },
+  "devDependencies": {
+    "vue-di-loader": "0.0.7",
+    "ts-loader": "4.4.2",
+    "file-loader": "1.1.11",
+    "css-loader": "0.28.11",
+    "sass-loader": "7.0.3",
+    "style-loader": "0.21.0",
+    "svg-sprite-loader": "3.8.0",
+    "html-webpack-plugin": "3.2.0",
+    "webpack": "4.12.2",
+    "webpack-dev-server": "3.1.4",
+    "webpack-cli": "3.0.8"
+  }
+}
